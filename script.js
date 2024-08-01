@@ -9,3 +9,28 @@
  5 stampare in pagina
 */
 
+// Fase preparatoria
+
+const input = document.getElementById('km')
+console.log('km', km);
+const age = document.getElementById('age')
+console.log('age', age);
+const button = document.querySelector('button')
+console.log('button', button);
+const kmPrice = 0.21;
+console.log('kmPrice', kmPrice);
+const paragraph = document.getElementById('result')
+console.log('result', result);
+
+// Fase gestione eventi
+button.addEventListener('click', function () {
+    // Recupero il valore dell'input
+    const inputValue = km.value.trim();
+    // stampo in console
+    console.log(inputValue);
+    // stampo nel paragrafo
+    if (inputValue) {
+        paragraph.innerText = inputValue;
+        input.value = '';
+    }
+})
