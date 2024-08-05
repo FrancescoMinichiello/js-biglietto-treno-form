@@ -16,7 +16,7 @@
 
 <body>
     <main class="container">
-
+        <!--Sezione form-->
         <section id="form-section" class="m-5">
             <div class="card">
                 <form action="">
@@ -49,6 +49,45 @@
                         <button class="btn btn-secondary" type="submit">Conferma</button>
                     </div>
                 </form>
+            </div>
+        </section>
+        <!--Sezione biglietto-->
+        <section id="ticket-section" class="m-5">
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="img/treno.jpg" class="img-fluid rounded-start" alt="treno">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Il tuo biglietto</h5>
+                            <hr>
+
+                            <h4 id="passenger-name">Francesco Minichiello</h4>
+                            <!--Tariffa, carrozza, pnr, costo-->
+                            <div class="row row-cols-md-4">
+                                <div class="col">
+                                    <h6>Tariffa</h6>
+                                    <div id="rate">Adulto</div>
+                                </div>
+                                <div class="col">
+                                    <h6>Carrozza</h6>
+                                    <div id="rate">8</div>
+                                </div>
+                                <div class="col">
+                                    <h6>PNR</h6>
+                                    <div id="rate">97437</div>
+                                </div>
+                                <div class="col">
+                                    <h6>Totale</h6>
+                                    <div id="price">€20.00</div>
+                                </div>
+                            </div>
+                            <p class="text-muted mt-3">Ho preso visione di termini e condizioni</p>
+                            <div>visualizza i <a href="#">termini e condizioni</a></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
