@@ -31,8 +31,7 @@
                             </div>
                             <div class="col mb-3">
                                 <label for="kms" class="form-label">chilometri</label>
-                                <input type="number" class="form-control" id="name" id="kms" min="10" step="1"
-                                    value="10">
+                                <input type="number" class="form-control" id="kms" min="10" step="1" value="10">
                             </div>
                             <div class="col mb-3">
                                 <label for="age" class="form-label">Fascia d'età</label>
@@ -46,13 +45,13 @@
                     </div>
                     <div class="card-footer d-flex justify-content-end gap-3">
                         <button class="btn btn-primary" type="reset">Annulla</button>
-                        <button class="btn btn-secondary" type="submit">Conferma</button>
+                        <button class="btn btn-secondary" type="submit" id="confirm-button">Conferma</button>
                     </div>
                 </form>
             </div>
         </section>
         <!--Sezione biglietto-->
-        <section id="ticket-section" class="m-5">
+        <section id="ticket-section" class="m-5 d-none">
             <div class="card mb-3">
                 <div class="row g-0">
                     <div class="col-md-4">
@@ -68,15 +67,15 @@
                             <div class="row row-cols-md-4">
                                 <div class="col">
                                     <h6>Tariffa</h6>
-                                    <div id="rate">Adulto</div>
+                                    <div id="rate">Tariffa ordinaria</div>
                                 </div>
                                 <div class="col">
                                     <h6>Carrozza</h6>
-                                    <div id="rate">8</div>
+                                    <div id="car">8</div>
                                 </div>
                                 <div class="col">
                                     <h6>PNR</h6>
-                                    <div id="rate">97437</div>
+                                    <div id="pnr">97437</div>
                                 </div>
                                 <div class="col">
                                     <h6>Totale</h6>
